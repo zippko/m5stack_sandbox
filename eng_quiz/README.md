@@ -21,7 +21,6 @@ Current behavior:
 - `src/main.cpp` hosts the full app.
 - The app uses `M5Core2` LCD and touch APIs directly; no LVGL is involved.
 - `QA items[]` contains the built-in vocabulary list.
-- Many vocabulary units remain commented out; the current active word set is the `unit 11` block.
 - The layout is a 2x2 button grid in the lower half of the display.
 - Question text is wrapped manually to fit the top display area.
 - Touch locking and release detection prevent press-and-hold from generating duplicate taps.
