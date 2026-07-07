@@ -8,121 +8,8 @@ struct QA {
 };
 
 // Predefined words and meanings
-QA items[] = {
-  //
-  // unit2
-  // {"doll", "babika"},
-  // {"ball", "lopta"},
-  // {"bike",   "bicykel"},
-  // {"car",  "auto"},
-  // {"egg",   "vajce"},
-  // {"fig", "figa"},
-  // {"game", "hra"},
-  // {"goat",  "koza"},
-  // {"hat", "ciapka, klobuk"},
-  // {"kite",  "sarkan"},
-  // {"puzzle",  "skaldacka"},
-  // {"scooter",  "kolobezka"},
-  // {"teddy",  "plysovy medvedik"},
-  // {"train",  "vlak"}
-  //
-  // unit3
-  // {"arms",  "ruky, ramena"},
-  // {"ears",  "usi"},
-  // {"eyebrows",  "obocie"},
-  // {"eyes",  "oci"},
-  // {"face",  "tvar"},
-  // {"fingers",  "prsty"},
-  // {"hands",  "ruky"},
-  // {"ink",  "atrament"},
-  // {"jam",  "dzem"},
-  // {"kite",  "sarkan"},
-  // {"legs",  "nohy"},
-  // {"lion",  "lev"},
-  // {"nose",  "nos"},
-  // {"shoulders",  "plecia"}  
-  //
-  // unit 4
-  // {"doctor",  "doktor"},
-  // {"farmer",  "farmar"},
-  // {"fireman",  "poziarnik"},
-  // {"housewife",  "zena v domacnosti"},
-  // {"mum",  "mamicka"},
-  // {"nurse",  "zdrav. sestra"},
-  // {"orange",  "pomaranc"},
-  // {"pen",  "pero"},
-  // {"pilot",  "pilot"},
-  // {"policeman",  "policajt"},
-  // {"postman",  "postar"},
-  // {"pupil",  "ziak"},
-  // {"teacher",  "ucitel"},
-  // {"zookeeper",  "osetrovatel zvierat"}
-  //
-  // unit 5
-  // {"armbands",  "nafuk. rukavniky"},  
-  // {"climbing frame",  "preliezacka"},  
-  // {"frisbee",  "frisbee, tanier na hadz."},  
-  // {"ice cream",  "zmrzlina"},  
-  // {"net",  "branka"},  
-  // {"pool",  "bazen"},  
-  // {"queen",  "kralovna"},  
-  // {"rabbit",  "kralik"},  
-  // {"seesaw",  "hojdacka"},  
-  // {"slide",  "smykacka"},  
-  // {"sofa",  "gauc"},  
-  // {"swing",  "hojdacka"},  
-  // {"teddy",  "plys. medvedik"},   
-  // {"tree",  "strom"},  
-  // {"umbrella",  "dazdnik"}
-  //
-  // unit 8
-  // {"bathroom",  "kupelna"},    
-  // {"bedroom",  "spalna"},    
-  // {"dining room",  "jedalen"},    
-  // {"downstairs",  "dole schodami"},    
-  // {"fish",  "ryba"},    
-  // {"flat",  "byt"},  
-  // {"front door",  "predne dvere, hlavny vchod"},  
-  // {"garden",  "zahrada"},  
-  // {"house",  "dom"},  
-  // {"kitchen",  "kuchyna"},  
-  // {"living room",  "obyvacka"},  
-  // {"sheep",  "ovca"},  
-  // {"shoes",  "topanky"},  
-  // {"upstairs",  "hore schodame"}
-  // unit 9
-  // {"apple",  "jablko"},    
-  // {"banana",  "banan"},    
-  // {"biscuit",  "keks"},    
-  // {"chair",  "stolicka"},    
-  // {"cherries",  "ceresne"},    
-  // {"chick",  "kuriatko"},    
-  // {"drinks",  "napoje"},    
-  // {"grapes",  "hrozno"},    
-  // {"lunch box",  "krabicka na obed"},    
-  // {"pear",  "hruska"},    
-  // {"pineapple",  "ananas"},    
-  // {"sandwich",  "sendvic"},    
-  // {"teacher",  "ucitel"},    
-  // {"tomato",  "paradajka"}    
-  // unit 10
-  // {"bath",  "vana"},    
-  // {"blond",  "blond, svetlovlasy"},    
-  // {"brown",  "hnedy"},    
-  // {"circle",  "kruh"},    
-  // {"curly",  "kuceravy"},    
-  // {"diamond",  "kosostvorec"},    
-  // {"long",  "dlhy"},    
-  // {"rectangle",  "obdlznik"},    
-  // {"short",  "kratky"},    
-  // {"square",  "stvorec"},    
-  // {"straight",  "rovny"},    
-  // {"teeth",  "zuby"},    
-  // {"three",  "tri"},    
-  // {"triangle",  "trojuholnik"},    
-  // {"put on",  "obliec sa"},    
-  // {"take off",  "vyzliec sa"}  
-  // unit 11
+QA items[] = {  
+  // unit XX
   {"big",  "velky"},      
   {"cat",  "macka"},      
   {"elephant",  "slon"},          
@@ -130,7 +17,7 @@ QA items[] = {
   {"giraffe",  "zirafa"},            
   {"little",  "maly"},          
   {"man",  "muz"},          
-  {"monkey",  "opica"},          
+  {"sad",  "smutny"},          
   {"parrot",  "papagaj"},          
   {"polar bear",  "ladovy medved"},
   {"seal",  "tulen"},          
