@@ -13,6 +13,8 @@ Current behavior:
 - The screen shows `N/A` when the probe is missing or a read fails.
 - Deep sleep powers down the LCD/backlight through the PMIC.
 
+![Screenshot](assets/pool_temp_meter.png)
+
 ## Architecture
 
 - `src/main.cpp` hosts the full app.
