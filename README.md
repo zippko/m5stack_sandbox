@@ -36,15 +36,31 @@ Project files:
 - App code: `eng_quiz/src/main.cpp`
 - Build config: `eng_quiz/platformio.ini`
 
+### `sun_simulator`
+
+Sun-like LED strip effect for `M5Stack Atom Lite`.
+
+Current high-level behavior:
+- Drives a `WS2813` strip (30 LEDs, 1 m) on the Grove port / `GPIO 32` using `FastLED`.
+- Shows a slowly drifting orange-yellow base glow.
+- Triggers random eruptions (up to 3 at once) every 3-10 s.
+- Triggers an eruption manually with the Atom Lite button (`GPIO 39`).
+- Limits power draw to 600 mA.
+
+Project files:
+- App code: `sun_simulator/src/main.cpp`
+- Build config: `sun_simulator/platformio.ini`
+
 ## Stack
 
 - PlatformIO
-- Board target: `m5stack-core2`
+- Board target: `m5stack-core2` (`pool_temp_meter`, `eng_quiz`), `m5stack-atom` (`sun_simulator`)
 - Framework: `arduino`
 
 Version notes:
 - `pool_temp_meter` pins `espressif32@6.12.0` and explicit library versions.
 - `eng_quiz` uses `espressif32` without a pinned platform version and depends on `M5Core2`.
+- `sun_simulator` pins `espressif32@6.12.0` and `FastLED@3.9.20`.
 
 ## Run
 
@@ -76,3 +92,4 @@ pio run
 ## Changelog-lite
 
 - Added workspace-level overview for the available applications.
+- Added `sun_simulator` (Atom Lite + LED strip) to the overview.
